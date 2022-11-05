@@ -9,8 +9,8 @@ export default function Layout({ children }: { children: ReactNode }) {
       <body>
         {/** @ts-expect-error */}
         <Header />
-        {/* <main>{children}</main> */}
-        {/* <Footer /> */}
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )
