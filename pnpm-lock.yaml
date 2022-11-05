@@ -12,7 +12,7 @@ specifiers:
 
 dependencies:
   next: 13.0.2_biqbaboplfbrettd7655fr4n2y
-  next-auth: 4.15.1_vo2mwhatbdlbtvmnsv5k22xfpu
+  next-auth: 4.15.2_vo2mwhatbdlbtvmnsv5k22xfpu
   nodemailer: 6.8.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -227,8 +227,8 @@ packages:
     hasBin: true
     dev: false
 
-  /next-auth/4.15.1_vo2mwhatbdlbtvmnsv5k22xfpu:
-    resolution: {integrity: sha512-yB/cSEqslaXAsLZ3lvkJbB7bRR5JeZvfUXSw0CmWeP+TaMZWB85fG9PWdfBeFrDCLBsoyATw9FF6fzApE0SxSw==}
+  /next-auth/4.15.2_vo2mwhatbdlbtvmnsv5k22xfpu:
+    resolution: {integrity: sha512-YsjGgY4hkTkN5pTIdwFBS2nTE68oI9KYXUBnOAC+SdWDOCK1vQikAICBdn4uUxBEeH9AH8xWYhpNzELaqFumsQ==}
     engines: {node: ^12.19.0 || ^14.15.0 || ^16.13.0 || ^18.12.0}
     peerDependencies:
       next: ^12.2.5 || ^13

@@ -1,11 +1,10 @@
 import Link from "next/link"
-import { getSession } from "next-auth/react"
+import { getSession } from "./getSession"
 import styles from "./header.module.css"
 import { SignIn, SignOut } from "./actions"
 
 export default async function Header() {
   const session = await getSession()
-  console.log(session)
 
   return (
     <header>

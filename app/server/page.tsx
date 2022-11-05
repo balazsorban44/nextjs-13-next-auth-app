@@ -1,4 +1,4 @@
-import { getSession } from "next-auth/react"
+import { getSession } from "../getSession"
 
 export default async function ServerSidePage() {
   // As this page uses Server Side Rendering, the `session` will be already
