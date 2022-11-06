@@ -1,16 +1,14 @@
 import Link from "next/link"
-import { getSession } from "./getSession"
 import styles from "./header.module.css"
 import { SignIn, SignOut } from "./actions"
+import { unstable_getServerSession } from "next-auth/next"
+import { authOptions } from "../pages/api/auth/[...nextauth]"
 
 export default async function Header() {
-  const session = await getSession()
+  const session = await unstable_getServerSession(authOptions)
 
   return (
     <header>
-      <noscript>
-        <style>{`.nojs-show { opacity: 1; top: 0; }`}</style>
-      </noscript>
       <div className={styles.signedInStatus}>
         <p className={`nojs-show ${styles.loaded}`}>
           {session?.user ? (
