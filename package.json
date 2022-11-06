@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "next": "canary",
-    "next-auth": "latest",
+    "next-auth": "4.16.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
