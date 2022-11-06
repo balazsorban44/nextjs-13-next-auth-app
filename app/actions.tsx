@@ -4,30 +4,16 @@ import { signIn, signOut } from "next-auth/react"
 
 export function SignOut() {
   return (
-    <a
-      href={`/api/auth/signout`}
-      className={styles.button}
-      onClick={(e) => {
-        e.preventDefault()
-        signOut()
-      }}
-    >
+    <button className={styles.button} onClick={() => signOut()}>
       Sign out
-    </a>
+    </button>
   )
 }
 
 export function SignIn() {
   return (
-    <a
-      href={`/api/auth/signin`}
-      className={styles.buttonPrimary}
-      onClick={(e) => {
-        e.preventDefault()
-        signIn()
-      }}
-    >
+    <button className={styles.buttonPrimary} onClick={() => signIn("github")}>
       Sign in
-    </a>
+    </button>
   )
 }

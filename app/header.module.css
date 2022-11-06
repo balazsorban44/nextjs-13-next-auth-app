@@ -49,6 +49,7 @@
 
 .button,
 .buttonPrimary {
+  border: none;
   float: right;
   margin-right: -0.4rem;
   font-weight: 500;
